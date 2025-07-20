@@ -1,0 +1,24 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-title {
+  font-weight: 700;
+  color: red;
+}
+
+.wiki-madeBy {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 8px;
+
+  @media (max-width: 1024px) {
+    font-size: 10px;
+  }
+}
