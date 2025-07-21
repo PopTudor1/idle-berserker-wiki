@@ -7,3 +7,80 @@ body,
   height: 100%;
   background-color: black;
 }
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+  justify-content: center;
+
+  @media (max-width: 1024px) {
+    padding: 16px;
+    width: auto;
+  }
+}
+
+.guide-container {
+  max-width: 1000px;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #4db8ff;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 32px;
+  color: #4db8ff;
+  margin-bottom: 8px;
+  margin-top: 8px;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  color: lightgreen;
+  margin-bottom: 8px;
+  margin-top: 8px;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 16px;
+
+  @media (max-width: 1024px) {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+strong {
+  color: yellow;
+}
+
+li {
+  font-size: 20px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+
+p {
+  font-size: 20px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}

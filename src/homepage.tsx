@@ -9,17 +9,9 @@ export default function Homepage() {
       <span className="wiki-madeBy">
         ( made by Tudique26 from the KNIGHTSXORDER guild on Trakan server )
       </span>
-      <div
-        style={{
-          display: "flex",
-          gap: "16px",
-          width: "100%",
-          height: "100%",
-          overflow: "hidden",
-        }}
-      >
+      <div className="homepage-content">
         <SideMenu />
-        <div style={{ width: "100%", overflowY: "auto", padding: "16px" }}>
+        <div className="outlet-container">
           <Outlet />
         </div>
       </div>
