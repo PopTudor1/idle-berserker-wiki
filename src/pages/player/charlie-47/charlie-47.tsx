@@ -2,7 +2,7 @@ export default function Charlie47() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>💎 Diamonds Importance & Tips</h2>
+        <h1>💎 Diamonds Importance & Tips</h1>
         <p>
           Diamonds are crucial for summoning and are especially important during
           the <strong>Legend Chief Event</strong>, where{" "}

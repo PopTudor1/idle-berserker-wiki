@@ -5,7 +5,7 @@ export default function ArchDevil() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>🏆 Why Play the Arena?</h2>
+        <h1>🏆 Why Play the Arena?</h1>
         <p>
           Playing the Arena is a great idea because it’s{" "}
           <strong>easy to earn diamonds and arena points</strong>.

@@ -7,7 +7,7 @@ export default function Corgon() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>🎯 How to Start Your Daily Missions Efficiently</h2>
+        <h1>🎯 How to Start Your Daily Missions Efficiently</h1>
         <ol>
           <li>
             <strong>Check your summoning tickets:</strong> Prioritize{" "}

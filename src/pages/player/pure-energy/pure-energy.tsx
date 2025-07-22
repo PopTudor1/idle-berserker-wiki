@@ -4,7 +4,7 @@ export default function PureEnergy() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>💡 Online vs Offline Rewards</h2>
+        <h1>💡 Online vs Offline Rewards</h1>
         <p>
           <strong>Online rewards</strong> are <em>way better</em> than offline!
           If you want to boost your progression efficiently:

@@ -6,7 +6,7 @@ export default function Pouloulou() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>🎯 Starting Priorities for New Berserkers</h2>
+        <h1>🎯 Starting Priorities for New Berserkers</h1>
         <p>
           Your main priority when starting the game is to progress through
           stages to unlock important mechanics like <strong>Demon Power</strong>

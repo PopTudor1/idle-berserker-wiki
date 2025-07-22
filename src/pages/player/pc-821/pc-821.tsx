@@ -6,7 +6,7 @@ export default function Pc821() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>🛡️ Preparing Gear Sets for Astia</h2>
+        <h1>🛡️ Preparing Gear Sets for Astia</h1>
         <p>
           It's a good idea to prepare <strong>two sets</strong> of{" "}
           <strong>Helmet</strong>, <strong>Armor</strong>, and{" "}

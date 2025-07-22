@@ -2,7 +2,7 @@ export default function Luke() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>⚠️ Maximize Your Potential</h2>
+        <h1>⚠️ Maximize Your Potential</h1>
         <p>
           If you want to <strong>maximize your potential</strong>, don’t just
           blindly follow build guides and call it done.
