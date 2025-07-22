@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./side-menu.css";
 
-const data = [
+const guidesData = [
   { link: "/introduction", label: "INTRODUCTION" },
   { link: "/arena", label: "ARENA" },
   { link: "/berserker-equipment", label: "BERSERKER EQUIPMENT" },
@@ -26,8 +26,36 @@ const data = [
   { link: "/other-info", label: "OTHER INFO" },
 ];
 
+const playerData = [
+  { link: "/traqaz", label: "traqaz" },
+  { link: "/luffy", label: "Luffy" },
+  { link: "/kale", label: "Kale" },
+  { link: "/broly-black", label: "BROLYBLACK" },
+  { link: "/pure-energy", label: "PureEnergy" },
+  { link: "/contrite-ant", label: "ContriteAnt" },
+  { link: "/deathxrder", label: "DEATHXRDER" },
+  { link: "/disguise", label: "Disguise" },
+  { link: "/charlie-47", label: "Charlie47" },
+  { link: "/pouloulou", label: "pouloulou" },
+  { link: "/pc-821", label: "Pc821" },
+  { link: "/arch-devil", label: "ArchDevil" },
+  { link: "/luke", label: "Luke" },
+  { link: "/corgon", label: "Corgon" },
+  { link: "/hanakilla", label: "hanakilla" },
+];
+
 export function SideMenu() {
-  const links = data.map((item) => (
+  const guidesLinks = guidesData.map((item) => (
+    <NavLink
+      key={item.link}
+      to={item.link}
+      className={({ isActive }) => (isActive ? "link active-link" : "link")}
+    >
+      {item.label}
+    </NavLink>
+  ));
+
+  const playerLinks = playerData.map((item) => (
     <NavLink
       key={item.link}
       to={item.link}
@@ -39,11 +67,22 @@ export function SideMenu() {
 
   return (
     <nav className="navbar">
-      <div className="header">
-        <span>Guides (7/22/2025)</span>
-        <hr className="separator" />
+      <div className="guides-section">
+        <div className="header">
+          <span>&#x25BC; Guides(7/22/2025) &#x25BC;</span>
+          <hr className="separator" />
+        </div>
+        <div className="links-container">{guidesLinks}</div>
       </div>
-      {links}
+      <div className="player-section">
+        <hr className="separator" />
+        <div className="header">
+          <span>&#x25BC; Player Wisdom &#x25BC;</span>
+          <hr className="separator" />
+        </div>
+        <div className="links-container">{playerLinks}</div>
+      </div>
+      <hr className="separator" />
     </nav>
   );
 }
