@@ -3,6 +3,8 @@ import events2Preview from "../../assets/events-2.png";
 import events3Preview from "../../assets/events-3.png";
 import events4Preview from "../../assets/events-4.png";
 import events5Preview from "../../assets/events-5.png";
+import events6Preview from "../../assets/events-6.png";
+import events7Preview from "../../assets/events-7.png";
 
 export default function EventsPage() {
   return (
@@ -139,6 +141,64 @@ export default function EventsPage() {
         <div style={{ textAlign: "center", margin: "20px 0" }}>
           <img
             src={events5Preview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+      </div>
+      <div className="guide-container">
+        <h1>🎰 Stair Roulette Event</h1>
+        <p>
+          <strong>Duration:</strong> 13 days
+        </p>
+
+        <h2>🔥 Buffs During Event</h2>
+        <ul>
+          <li>2x Paragon XP rate / Normal XP</li>
+          <li>2x Dice drop rate</li>
+          <li>2x Enchantment Stone drop rate</li>
+          <li>2x Gold rate</li>
+          <li>
+            <strong>Note:</strong> Buffs can be increased up to{" "}
+            <strong>5x</strong> if you purchase the premium tier
+          </li>
+        </ul>
+
+        <h2>🎁 Rewards</h2>
+        <ul>
+          <li>
+            <strong>Completion of 1st Tier:</strong> Random SSR Costume
+          </li>
+          <li>
+            <strong>Completion of 2nd Tier:</strong> Choose one of:
+            <ul>
+              <li>SSR Costume</li>
+              <li>SSR Creature</li>
+              <li>
+                SSR Companion <strong>(Recommended)</strong>
+              </li>
+            </ul>
+          </li>
+          <li>
+            After the 2nd tier, the reward loop <strong>repeats</strong> at Tier
+            2 level.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Credit:</strong> Thanks to <em>Zohix</em> for sharing the loop
+          info 💡
+        </p>
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={events6Preview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={events7Preview}
             alt="Creature Calculator Preview"
             style={{ maxWidth: "100%", borderRadius: "8px" }}
           />

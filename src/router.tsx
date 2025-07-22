@@ -19,6 +19,7 @@ import GuildBattlePage from "./pages/guild-battle/guild-battle-page";
 import GuildPage from "./pages/guild/guild-page";
 import IntroductionPage from "./pages/introduction/introduction-page";
 import MonsterCardsPage from "./pages/monster-cards/monster-cards-page";
+import OtherInfoPage from "./pages/other-info/other-info-page";
 import ParagonPage from "./pages/paragon/paragon-page";
 import PetsPage from "./pages/pets/pets-page";
 import ResourceFarmingPage from "./pages/resource-farming/resource-farming-page";
@@ -114,6 +115,10 @@ const router = createBrowserRouter([
       {
         path: "world-stones",
         element: <WorldStonesPage />,
+      },
+      {
+        path: "other-info",
+        element: <OtherInfoPage />,
       },
       // 🔁 Catch-all for unknown child routes under "/"
       { path: "*", element: <Navigate to="/" replace /> },

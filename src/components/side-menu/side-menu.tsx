@@ -23,6 +23,7 @@ const data = [
   { link: "/soul-crystals", label: "SOUL GATE/CRYSTALS" },
   { link: "/stage-drops", label: "STAGE DROPS & ESSENCES" },
   { link: "/world-stones", label: "WORLD STONES" },
+  { link: "/other-info", label: "OTHER INFO" },
 ];
 
 export function SideMenu() {
@@ -39,7 +40,7 @@ export function SideMenu() {
   return (
     <nav className="navbar">
       <div className="header">
-        <span>Berserker WIKI</span>
+        <span>Guides</span>
         <hr className="separator" />
       </div>
       {links}

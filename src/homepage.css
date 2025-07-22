@@ -18,7 +18,7 @@
   color: white;
   margin-bottom: 8px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     font-size: 10px;
   }
 }
@@ -30,7 +30,7 @@
   height: 100%;
   overflow: hidden;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     overflow: auto;
   }
@@ -41,7 +41,7 @@
   width: 100%;
   overflow: auto;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     overflow: visible;
     padding: 0px;
