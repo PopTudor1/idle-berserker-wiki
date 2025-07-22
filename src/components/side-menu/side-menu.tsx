@@ -40,7 +40,7 @@ export function SideMenu() {
   return (
     <nav className="navbar">
       <div className="header">
-        <span>Guides</span>
+        <span>Guides (7/22/2025)</span>
         <hr className="separator" />
       </div>
       {links}
