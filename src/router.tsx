@@ -13,6 +13,7 @@ import CostumesPage from "./pages/costumes/costumes-page";
 import DemonPowersPage from "./pages/demon-powers/demon-powers-page";
 import DungeonsPage from "./pages/dungeons/dungeons-page";
 import EventsPage from "./pages/events/events-page";
+import FarmingPage from "./pages/farming/farming-page";
 import GameBuildsPage from "./pages/game-builds/game-builds-page";
 import GuildBattlePage from "./pages/guild-battle/guild-battle-page";
 import GuildPage from "./pages/guild/guild-page";
@@ -23,8 +24,6 @@ import PetsPage from "./pages/pets/pets-page";
 import ResourceFarmingPage from "./pages/resource-farming/resource-farming-page";
 import SoulCrystalsPage from "./pages/soul-crystals/soul-crystals-page";
 import StageDropsPage from "./pages/stage-drops/stage-drops-page";
-import StageEssencesPage from "./pages/stage-essences/stage-essences-page";
-import StageFarmingPage from "./pages/stage-farming/stage-farming-page";
 import WorldStonesPage from "./pages/world-stones/world-stones-page";
 
 const router = createBrowserRouter([
@@ -73,6 +72,10 @@ const router = createBrowserRouter([
         element: <EventsPage />,
       },
       {
+        path: "farming",
+        element: <FarmingPage />,
+      },
+      {
         path: "game-builds",
         element: <GameBuildsPage />,
       },
@@ -107,14 +110,6 @@ const router = createBrowserRouter([
       {
         path: "stage-drops",
         element: <StageDropsPage />,
-      },
-      {
-        path: "stage-essences",
-        element: <StageEssencesPage />,
-      },
-      {
-        path: "stage-farming",
-        element: <StageFarmingPage />,
       },
       {
         path: "world-stones",

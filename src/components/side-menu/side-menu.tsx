@@ -12,6 +12,7 @@ const data = [
   { link: "/demon-powers", label: "DEMON POWERS" },
   { link: "/dungeons", label: "DUNGEONS" },
   { link: "/events", label: "EVENTS" },
+  { link: "/farming", label: "FARMING" },
   { link: "/game-builds", label: "GAME BUILDS" },
   { link: "/guild", label: "GUILD" },
   { link: "/guild-battle", label: "GUILD BATTLE" },
@@ -20,9 +21,7 @@ const data = [
   { link: "/pets", label: "PETS/CREATURES" },
   { link: "/resource-farming", label: "RESOURCE FARMING" },
   { link: "/soul-crystals", label: "SOUL GATE/CRYSTALS" },
-  { link: "/stage-drops", label: "STAGE DROPS" },
-  { link: "/stage-essences", label: "STAGE ESSENCES" },
-  { link: "/stage-farming", label: "STAGE FARMING" },
+  { link: "/stage-drops", label: "STAGE DROPS & ESSENCES" },
   { link: "/world-stones", label: "WORLD STONES" },
 ];
 

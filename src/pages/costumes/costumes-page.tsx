@@ -2,7 +2,7 @@ export default function CostumesPage() {
   return (
     <div className="page-container">
       <div className="guide-container">
-        <h2>👗 Costumes Guide</h2>
+        <h1>👗 Costumes Guide</h1>
 
         <p>
           Over time, aim to build sets of <strong>4 costumes</strong> tailored
