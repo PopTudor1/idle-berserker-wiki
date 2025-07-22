@@ -27,6 +27,7 @@
 .link {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   text-decoration: none;
   color: gold;
   padding: 6px 16px;
@@ -36,6 +37,20 @@
 .link:hover {
   background-color: lightgray;
   color: black;
+}
+
+/* Desktop-only: show arrow */
+@media (min-width: 768px) {
+  .link::after {
+    content: "→";
+    font-weight: bold;
+    transition: transform 0.2s ease;
+  }
+
+  /* Optional: animate arrow on hover */
+  .link:hover::after {
+    transform: translateX(4px);
+  }
 }
 
 .active-link {
