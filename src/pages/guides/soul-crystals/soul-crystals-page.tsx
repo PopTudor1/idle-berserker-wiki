@@ -99,19 +99,16 @@ export default function SoulCrystalsPage() {
       </div>
       <div className="guide-container">
         <h1>📈 Soul Crystal Stats</h1>
-
         <p>
           These stats remain consistent at every level for each Soul Crystal
           type:
         </p>
-
         <h2>Despair</h2>
         <ul>
           <li>ATK: +250</li>
           <li>Health: +250</li>
           <li>ATK %: +3%</li>
         </ul>
-
         <h2>Anger</h2>
         <ul>
           <li>ATK: +350</li>
@@ -119,7 +116,6 @@ export default function SoulCrystalsPage() {
           <li>ATK %: +3%</li>
           <li>Health %: +3%</li>
         </ul>
-
         <h2>Hatred</h2>
         <ul>
           <li>ATK: +450</li>
@@ -128,7 +124,6 @@ export default function SoulCrystalsPage() {
           <li>Infernal Damage: +50%</li>
           <li>Nature Damage: +50%</li>
         </ul>
-
         <h2>Sorrow</h2>
         <ul>
           <li>ATK: +550</li>
@@ -136,7 +131,6 @@ export default function SoulCrystalsPage() {
           <li>Amplified ATK: +5%</li>
           <li>Amplified Health: +5%</li>
         </ul>
-
         <h2>Fear</h2>
         <ul>
           <li>ATK: +650</li>
@@ -151,16 +145,15 @@ export default function SoulCrystalsPage() {
           <li>ATK: +750</li>
           <li>Health: +750</li>
           <li>
-            Stage Monster Celestial Resistance: <em>TBA</em>
+            Stage Monster Celestial Resistance: <em>+5% </em>
           </li>
           <li>
-            Stage Monster Infernal Resistance: <em>TBA</em>
+            Stage Monster Infernal Resistance: <em>+5% </em>
           </li>
           <li>
-            Stage Monster Nature Resistance: <em>TBA</em>
+            Stage Monster Nature Resistance: <em>+5% </em>
           </li>
         </ul>
-
         <h2>Sloth</h2>
         <ul>
           <li>ATK: +850</li>
