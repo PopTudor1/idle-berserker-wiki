@@ -1,3 +1,4 @@
+import { FaCrown } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "./side-menu.css";
 
@@ -62,6 +63,11 @@ export function SideMenu() {
       className={({ isActive }) => (isActive ? "link active-link" : "link")}
     >
       {item.label}
+      {item.label === "BROLYBLACK" && (
+        <FaCrown
+          style={{ color: "gold", marginRight: "6px", verticalAlign: "middle" }}
+        />
+      )}
     </NavLink>
   ));
 
