@@ -38,6 +38,7 @@
 
 .outlet-section {
   display: flex;
+
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -51,5 +52,36 @@
   @media (max-width: 768px) {
     overflow: visible;
     padding: 0px;
+  }
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.recruit-container {
+  color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.youtube-frame {
+  min-width: 300px;
+  min-height: 200px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    width: 90%;
   }
 }
