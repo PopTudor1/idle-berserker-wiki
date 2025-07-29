@@ -4,6 +4,7 @@ import "./side-menu.css";
 
 const guidesData = [
   { link: "/introduction", label: "INTRODUCTION" },
+  { link: "/coupons", label: "COUPONS" },
   { link: "/arena", label: "ARENA" },
   { link: "/berserker-equipment", label: "BERSERKER EQUIPMENT" },
   { link: "/bosses", label: "BOSSES" },

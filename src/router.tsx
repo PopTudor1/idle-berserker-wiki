@@ -10,6 +10,7 @@ import BossesPage from "./pages/guides/bosses/bosses-page";
 import CalculatorsPage from "./pages/guides/calculators/calculators-page";
 import CompanionsPage from "./pages/guides/companions/companions-page";
 import CostumesPage from "./pages/guides/costumes/costumes-page";
+import CouponsPage from "./pages/guides/coupons/coupons-page";
 import DemonPowersPage from "./pages/guides/demon-powers/demon-powers-page";
 import DungeonsPage from "./pages/guides/dungeons/dungeons-page";
 import EventsPage from "./pages/guides/events/events-page";
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: "introduction",
         element: <IntroductionPage />,
+      },
+      {
+        path: "coupons",
+        element: <CouponsPage />,
       },
       {
         path: "arena",
