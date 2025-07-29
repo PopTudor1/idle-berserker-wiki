@@ -4,7 +4,7 @@ export default function CouponsPage() {
       <div className="guide-container">
         <h1>🎁 CLAIM CODES / COUPONS</h1>
         <p>
-          There are <strong>two main ways</strong> to claim coupon codes in{" "}
+          There are <strong>three main ways</strong> to claim coupon codes in{" "}
           <em>Idle Berserker</em>:
         </p>
         <ul>
@@ -30,6 +30,18 @@ export default function CouponsPage() {
               rel="noopener noreferrer"
             >
               https://berserker.cookappsgames.com
+            </a>
+          </li>
+          <li>
+            📜 <strong>Third-Party Code Listings</strong> – Check this regularly
+            updated blog for the latest working codes:
+            <br />
+            <a
+              href="https://www.mrguider.org/codes/idle-berserker-codes-coupon/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              mrguider.org – Idle Berserker Codes
             </a>
           </li>
         </ul>
