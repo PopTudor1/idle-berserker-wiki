@@ -64,7 +64,7 @@ export function SideMenu() {
       className={({ isActive }) => (isActive ? "link active-link" : "link")}
     >
       {item.label}
-      {item.label === "BROLYBLACK" && (
+      {item.label === "Disguise" && (
         <FaCrown
           style={{ color: "gold", marginRight: "6px", verticalAlign: "middle" }}
         />
