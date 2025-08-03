@@ -1,3 +1,8 @@
+import costumes1Preview from "../../../assets/costumes-1.png";
+import costumes2Preview from "../../../assets/costumes-2.png";
+import costumes3Preview from "../../../assets/costumes-3.png";
+import costumes4Preview from "../../../assets/costumes-4.png";
+
 export default function CostumesPage() {
   return (
     <div className="page-container">
@@ -9,6 +14,47 @@ export default function CostumesPage() {
           to specific content types. Use the auto-roll feature for SR (it will
           stop on SR and SSR), but try to keep any SSRs you roll.
         </p>
+        <p>This is a set:</p>
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={costumes1Preview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={costumes2Preview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+        <p>
+          You go to each costume ability and try to have buffs for stage monster
+          or buffs for stage boss.
+        </p>
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={costumes3Preview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+        <p>
+          <strong>Stage Monster Set:</strong>
+          <br />4 costumes with full stage monster bonuses make a stage monster
+          set.
+        </p>
+        <p>
+          <strong>Example of Stage Boss Bonuses:</strong>
+        </p>
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={costumes4Preview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
 
         <h3>Recommended Costume Sets:</h3>
         <ul>
