@@ -15,7 +15,7 @@ export default function Homepage() {
           <div className="outlet-container">
             <Outlet />
           </div>
-          <div className="right-side">
+          {/* <div className="right-side">
             <div className="recruit-container">
               <h2>⚔️ Join KNIGHTSXORDER – Trakan US Server! ⚔️</h2>
               <span>
@@ -50,7 +50,7 @@ export default function Homepage() {
                 allowFullScreen
               ></iframe>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
