@@ -69,6 +69,24 @@ export function SideMenu() {
           style={{ color: "gold", marginRight: "6px", verticalAlign: "middle" }}
         />
       )}
+      {item.label === "BROLYBLACK" && (
+        <FaCrown
+          style={{
+            color: "silver",
+            marginRight: "6px",
+            verticalAlign: "middle",
+          }}
+        />
+      )}
+      {item.label === "Luke" && (
+        <FaCrown
+          style={{
+            color: "#cd7f32", //bronze
+            marginRight: "6px",
+            verticalAlign: "middle",
+          }}
+        />
+      )}
     </NavLink>
   ));
 
