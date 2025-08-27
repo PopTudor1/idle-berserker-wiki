@@ -55,6 +55,16 @@ export default function EventsPage() {
         <ul>
           <li>Use 100 diamonds - 1 pt</li>
         </ul>
+        <h3> Try the calculator here:</h3>
+        <p>
+          <a
+            href="https://legend-chief-calculator.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://legend-chief-calculator.vercel.app/
+          </a>
+        </p>
       </div>
       <div className="guide-container">
         <h1>

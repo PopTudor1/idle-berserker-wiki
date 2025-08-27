@@ -1,6 +1,7 @@
 import awakeningCalculatorPreview from "../../../assets/awakening-calculator.png";
 import creatureCalculatorPreview from "../../../assets/creature-calculator.png";
 import creatureSimulatorPreview from "../../../assets/creature-simulator.png";
+import legendChiefCalculatorPreview from "../../../assets/legend-chief-calculator.png";
 
 export default function CalculatorsPage() {
   return (
@@ -139,6 +140,51 @@ export default function CalculatorsPage() {
           <li>
             Hit <strong>"Calculate Keys"</strong> and voilà — you’ve got your
             result!
+          </li>
+        </ul>
+      </div>
+      <div className="guide-container">
+        <h1>⚔️ Legend Chief Points Calculator ⚔️</h1>
+
+        <p>
+          Special thanks to <strong>Tudique26</strong> from the{" "}
+          <strong>KNIGHTSXORDER</strong> guild on the Trakan US server for
+          making this calculator!
+        </p>
+
+        <p>
+          Try it here:{" "}
+          <a
+            href="https://legend-chief-calculator.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://legend-chief-calculator.vercel.app/
+          </a>
+        </p>
+
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={legendChiefCalculatorPreview}
+            alt="Legend Chief Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+
+        <ul>
+          <li>Enter the number of keys or diamonds you have in the fields</li>
+          <li>
+            Each type of key gives a different number of <strong>points</strong>
+          </li>
+          <li>
+            Each 100 diamonds means 1 <strong>point</strong>
+          </li>
+          <li>
+            The calculator shows <strong>per-field points</strong> as well as
+            your <strong>total score</strong>
+          </li>
+          <li>
+            Use the <em>Reset</em> button to quickly clear all inputs
           </li>
         </ul>
       </div>
