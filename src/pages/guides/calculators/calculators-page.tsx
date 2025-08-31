@@ -2,6 +2,7 @@ import awakeningCalculatorPreview from "../../../assets/awakening-calculator.png
 import creatureCalculatorPreview from "../../../assets/creature-calculator.png";
 import creatureSimulatorPreview from "../../../assets/creature-simulator.png";
 import legendChiefCalculatorPreview from "../../../assets/legend-chief-calculator.png";
+import guildBattleViewerPreview from ".././../../assets/guild-battle-viewer.png";
 
 export default function CalculatorsPage() {
   return (
@@ -187,6 +188,27 @@ export default function CalculatorsPage() {
             Use the <em>Reset</em> button to quickly clear all inputs
           </li>
         </ul>
+      </div>
+      <div className="guide-container">
+        <h1>Guild Battle Viewer</h1>
+        <p>
+          Try it here:{" "}
+          <a
+            href="https://https://guild-battle-viewer.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://guild-battle-viewer.vercel.app/
+          </a>
+        </p>
+
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={guildBattleViewerPreview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
       </div>
     </div>
   );

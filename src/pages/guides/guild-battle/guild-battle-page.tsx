@@ -1,3 +1,5 @@
+import guildBattleViewerPreview from ".././../../assets/guild-battle-viewer.png";
+
 export default function GuildBattlePage() {
   return (
     <div className="page-container">
@@ -16,6 +18,26 @@ export default function GuildBattlePage() {
             — the current stage preset will be used.
           </li>
         </ul>
+
+        <h2>Guild Battle Viewer</h2>
+        <p>
+          Try it here:{" "}
+          <a
+            href="https://https://guild-battle-viewer.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://guild-battle-viewer.vercel.app/
+          </a>
+        </p>
+
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={guildBattleViewerPreview}
+            alt="Creature Calculator Preview"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
 
         <h2>📜 Scrolls</h2>
         <ul>
