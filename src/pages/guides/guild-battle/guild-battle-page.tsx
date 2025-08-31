@@ -23,7 +23,7 @@ export default function GuildBattlePage() {
         <p>
           Try it here:{" "}
           <a
-            href="https://https://guild-battle-viewer.vercel.app/"
+            href="https://guild-battle-viewer.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >

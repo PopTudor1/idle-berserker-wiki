@@ -194,7 +194,7 @@ export default function CalculatorsPage() {
         <p>
           Try it here:{" "}
           <a
-            href="https://https://guild-battle-viewer.vercel.app/"
+            href="https://guild-battle-viewer.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
