@@ -1,3 +1,4 @@
+import farmSimulator1Preview from "../../../assets/farm-simulator-1.png";
 import farming1Preview from "../../../assets/farming-1.png";
 import farming2Preview from "../../../assets/farming-2.png";
 import farming3Preview from "../../../assets/farming-3.png";
@@ -6,6 +7,27 @@ import farming4Preview from "../../../assets/farming-4.png";
 export default function FarmingPage() {
   return (
     <div className="page-container">
+      <div className="guide-container">
+        <h1>Stage Farm Simulator</h1>
+        <p>
+          Try it here:{" "}
+          <a
+            href="https://stage-farm-simulator.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://stage-farm-simulator.vercel.app/
+          </a>
+        </p>
+
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={farmSimulator1Preview}
+            alt="farm simulator 1"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+      </div>
       <div className="guide-container">
         <h1>🌾 Farming Tips</h1>
         <ul>

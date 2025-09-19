@@ -1,6 +1,7 @@
 import awakeningCalculatorPreview from "../../../assets/awakening-calculator.png";
 import creatureCalculatorPreview from "../../../assets/creature-calculator.png";
 import creatureSimulatorPreview from "../../../assets/creature-simulator.png";
+import farmSimulator1Preview from "../../../assets/farm-simulator-1.png";
 import legendChiefCalculatorPreview from "../../../assets/legend-chief-calculator.png";
 import guildBattleViewerPreview from ".././../../assets/guild-battle-viewer.png";
 
@@ -205,7 +206,28 @@ export default function CalculatorsPage() {
         <div style={{ textAlign: "center", margin: "20px 0" }}>
           <img
             src={guildBattleViewerPreview}
-            alt="Creature Calculator Preview"
+            alt="guild battle viewer"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </div>
+      </div>
+      <div className="guide-container">
+        <h1>Stage Farm Simulator</h1>
+        <p>
+          Try it here:{" "}
+          <a
+            href="https://stage-farm-simulator.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://stage-farm-simulator.vercel.app/
+          </a>
+        </p>
+
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={farmSimulator1Preview}
+            alt="farm simulator 1"
             style={{ maxWidth: "100%", borderRadius: "8px" }}
           />
         </div>
